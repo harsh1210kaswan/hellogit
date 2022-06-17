@@ -70,6 +70,8 @@ if(isSpresent)
     //console.log(contentarr);
 }
 
+
+
 //We will now push all the string except null ones in the final array
 let finalarray=[];
 for(let i=0;i<contentarr.length;i++)
@@ -91,6 +93,6 @@ if(isNpresent)
             finalarray[i]=i+1+") "+finalarray[i];
         }
     }
-    
+
     console.log(finalarray);
 }
